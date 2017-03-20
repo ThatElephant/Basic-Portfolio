@@ -79,9 +79,10 @@ h1 {
 }
 
 #connecttext {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     padding: 13px;
 }
 
@@ -94,10 +95,10 @@ h1 {
     box-shadow: 0 10px 10px -6px #d3d3d3 inset;
 }
 
+
 #connectli a{
 	margin: 2px;
 	padding: 10px;
-
 	float: left;
 	display: inline-block;
 	text-decoration: none;
@@ -114,7 +115,7 @@ h1 {
     top: 141px;
     width: 500px;
     height: 520px;
-    background-color: #5c747f;
+    background-color: #838f95;
     border: 2px solid black;
     border-radius: 5%;
     z-index: 2;
@@ -126,28 +127,40 @@ form {
 }
 
 
-form h4{
-	margin-top: 20px;
-	margin-left: 30px;
-/*font*/
-	color: white;
-	font-weight: bold;
+form h4 {
+    margin-top: 5px;
+    margin-left: 55px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+form hr {
+	width: 280px;
+	height: 30px;
+	margin-left: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px 0 0 0;
+    border-radius: 20px;
 }
 
 label {
 	display: block;
 	margin-left: 20px;
-	padding: 20px;
-	/*font*/
+	padding: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input {
 	width: 250px;
-	margin-left: 20px;
+	margin-left: 25px;
 }
 
-textarea{
+textarea {
 	width: 250px;
+	height: 140px;
 	margin-left: 20px
 }
 
@@ -156,20 +169,39 @@ fieldset {
 }
 
 .labelone {
-	margin-top: 10px;
+	margin-top: -37px;
 }
 
 .btn {
 	width: 125px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #323435;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px #1c1c1c;
 }
 
+.btn:hover {
+	background-color: #4e5456;
+}
+
+.btn:active {
+  background-color: #222425;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
 
 #footer {
 	background-color: white;
 	width: 100%;
 	height: 60px;
 	text-align: center;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	background-color: #050e15;
 	opacity: 0.8;
