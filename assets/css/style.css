@@ -72,7 +72,7 @@ h1 {
     right: 250px;
     top: 141px;
     border: 2px solid black;
-    border-radius: 10%;
+    border-radius: 12px;
     opacity: 0.8;
 	filter: alpha (opacity=80);
 	z-index: 1;
@@ -90,7 +90,7 @@ h1 {
 	height: 13px;
     width: 210px;
     margin-top: 4px;
-    border-radius: 3%;
+    border-radius: 3px;
     border: 0;
     box-shadow: 0 10px 10px -6px #d3d3d3 inset;
 }
@@ -108,6 +108,77 @@ h1 {
 	width: 55px;
 	height: 55px;
 }
+
+#portfolio1 {
+	position: absolute;
+    left: 275px;
+    top: 141px;
+    width: 650px;
+    height: 520px;
+    background-color: #838f95;
+    border: 2px solid black;
+    border-radius: 5%;
+    z-index: 2;
+}
+
+#portfoliohd {
+    margin-top: 25px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#portfoliohr1 {
+	width: 620px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px 0 0 0;
+    border-radius: 20px;
+}
+
+#portfoliohr2 {
+	width: 620px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 3px 0;
+    border-radius: 20px;
+    position: relative;
+    bottom: -355px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #formwrap {
     position: absolute;
@@ -156,12 +227,14 @@ label {
 input {
 	width: 250px;
 	margin-left: 25px;
+	border: solid 2px #39393a;
 }
 
 textarea {
 	width: 250px;
 	height: 140px;
 	margin-left: 25px;
+	border: solid 2px #39393a;
 }
 
 fieldset {
