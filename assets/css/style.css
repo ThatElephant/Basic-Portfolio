@@ -120,7 +120,7 @@ h1 {
     top: 141px;
     width: 650px;
     height: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 110px;
     background-color: #838f95;
     border: 2px solid black;
     border-radius: 5%;
@@ -150,7 +150,7 @@ h1 {
 
 #portimage1 {
 	position: relative;
-    height: 390px;
+    height: 86%;
     margin: -20px 36px 10px 36px;
     background-color: #a0aaaf;
     border-radius: 12px;
@@ -167,11 +167,11 @@ h1 {
 
 span h4{
 	position: absolute;
-    padding-top: 19px;
+    padding-top: 21px;
     text-align: center;
     background-color: #717476;
     width: 45%;
-    height: 11%;
+    height: 6%;
     z-index: 1;
     margin-top: -85px;
     margin-left: 10px;
