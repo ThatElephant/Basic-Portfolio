@@ -76,7 +76,7 @@ h1 {
 	background-color: #5c747f;
     width: 240px;
     height: 160px;
-    position: absolute;
+    position: fixed;
     right: 250px;
     top: 141px;
     border: 2px solid black;
@@ -110,6 +110,10 @@ h1 {
 	float: left;
 	display: inline-block;
 	text-decoration: none;
+}
+
+#connectli a:hover{
+	opacity: .6;
 }
 
 #connectimage {
