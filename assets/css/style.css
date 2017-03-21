@@ -241,11 +241,13 @@ h1 {
 
 
 #portimage1 {
-	position: relative;
-    height: 86%;
-    margin: -20px 36px 10px 36px;
+    position: relative;
+    height: 83%;
+    margin: -20px 33px 0px 36px;
     background-color: #a0aaaf;
     border-radius: 12px;
+    overflow: auto;
+    border: 1px solid white;
 }
 
 #image1 {
