@@ -141,6 +141,35 @@ h1 {
     border-radius: 20px;
 }
 
+#portimage1 {
+    height: 390px;
+    margin: -20px 36px 10px 36px;
+    background-color: #a0aaaf;
+    border-radius: 12px;
+}
+
+#image1 {
+	position: relative;
+	margin: 10px;
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+#porttag {
+	position: relative;
+	height: 30%;
+	text-align: center;
+	background-color: purple;
+	z-index: 1;
+}
+
+#image1:hover {
+	border: 2px solid white;
+}
+
+
 #portfoliohr2 {
 	width: 620px;
 	height: 30px;
@@ -151,7 +180,7 @@ h1 {
     border-width: 0 0 3px 0;
     border-radius: 20px;
     position: relative;
-    bottom: -355px;
+    bottom: 30px;
 }
 
 
